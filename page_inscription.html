@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+  </head>
+<body>
+  <form action="page_inscription2.php" method="post">
+  <p>Nom</p>
+  <input type="text" name="Nom"/>
+  <p>Prénom</p>
+  <input type="text" name="Prenom"/>
+  <p>Emails</p>
+  <input type="text" name="Email"/>
+  <p>Mots de passe </p>
+  <input type="text" name="Mdp"/>
+  <p>Rôle</p>
+  <select name="Role">
+  <option value="Parents">Parents</option>
+  <option value="Elèves">Elèves</option>
+  </select>
+  <label>
+  <input type="submit" value="valider" oneclick="window.location.href = 'page_inscription2.php'"/>
+   </label>
+</form>
